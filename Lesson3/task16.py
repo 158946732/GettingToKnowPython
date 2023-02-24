@@ -10,4 +10,4 @@ x = int(input("Введите целое число: "))
 for i in range(len(list)):
     if x == list[i]:
         count += 1
-print(f"Ваше число встречается в массиве {count} раза")
+print(f"Заданное число встречается в массиве {count} раза")
