@@ -41,7 +41,7 @@ for i in word:
         p = p + 5
     elif i in points_8:
         p = p + 8
-    elif i in points_10: p = p + 10
+    else: p = p + 10
 print(f"Количество очков в слове {word} = {p}")
 
 
